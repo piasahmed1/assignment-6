@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 Complete</title>
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar bg-base-200 w-9/12 mx-auto">
+            <div class="navbar-start">
+                <img src="./Logo.png">
+            </div>
+            <div class="navbar-center" id="navbarCenter">
+                <button class=" ml-11 text-sm p-2 rounded-md  btn-active btn-ghost" id="displaySort"
+                    onclick="shortFunction()">Sorted by view</button>
+
+            </div>
+            <div class="navbar-end">
+                <button id="openAnotherHtml" class=" ml-11 text-sm p-2 bg-red-600 rounded-md text-white"
+                    onclick="handelSecondHtml()">Blog</button>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-screen-xl mx-auto">
+        <section>
+
+            <!-- name container section start -->
+
+            <div id="multiTalented" class=" flex flex-row justify-center text-center mt-5 gap-5 ">
+            </div>
+
+
+            <div id="monitor" class="mt-20 grid justify-center md:grid-cols-2 md:ml-10 lg:grid-cols-4 gap-7 ">
+
+            </div>
+            <div id="notFound" class="text-center  ">
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="java.js"></script>
+</body>
+
+</html>
